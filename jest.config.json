@@ -1,0 +1,19 @@
+{
+  "verbose": true,
+  "moduleFileExtensions": ["js", "json"],
+  "displayName": "Unit",
+  "collectCoverageFrom": ["src/**/*.{js,jsx}", "!node_modules/"],
+  "moduleNameMapper": {
+    "^@/(.*)$": "<rootDir>/src/$1"
+  },
+  "transformIgnorePatterns": ["node_modules"],
+  "coverageReporters": ["text"],
+  "coverageThreshold": {
+    "global": {
+      "branches": 100,
+      "functions": 100,
+      "lines": 100,
+      "statements": 100
+    }
+  }
+}
