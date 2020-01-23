@@ -1,47 +1,53 @@
 {
-  "name": "mailgun-js-sdk",
-  "version": "1.0.1",
-  "description": "A simple node mailgun sdk",
-  "author": "Luã Mota <hi@mocallu.com>",
-  "type": "module",
-  "homepage": "https://github.com/mocallu/mailgun-js-sdk",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mocallu/mailgun-js-sdk.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mocallu/mailgun-js-sdk/issues"
-  },
-  "engines": {
-    "node": ">=13"
-  },
-  "main": "./src/Mailgun.js",
-  "license": "MIT",
-  "babel": {
-    "presets": [
-      [
-        "@babel/preset-env",
-        {
-          "targets": {
-            "node": "current"
-          }
-        }
-      ]
+    "name": "mailgun-js-sdk",
+    "version": "1.0.1",
+    "description": "A simple node mailgun sdk",
+    "author": "Luã Mota <hi@mocallu.com>",
+    "type": "module",
+    "homepage": "https://github.com/mocallu/mailgun-js-sdk",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mocallu/mailgun-js-sdk.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mocallu/mailgun-js-sdk/issues"
+    },
+    "keywords": [
+        "mailgun",
+        "sdk",
+        "javascript",
+        "node"
     ],
-    "plugins": [
-      "transform-default-import"
-    ]
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/jest --detectOpenHandles --coverage --config=./jest.config.json",
-    "lint": "./node_modules/.bin/eslint --fix src"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/core": "^7.8.3",
-    "@babel/preset-env": "^7.8.3",
-    "babel-plugin-transform-default-import": "^1.0.0",
-    "eslint": "^6.8.0",
-    "jest": "^25.1.0"
-  }
+    "engines": {
+        "node": ">=13"
+    },
+    "main": "./src/Mailgun.js",
+    "license": "MIT",
+    "babel": {
+        "presets": [
+            [
+                "@babel/preset-env",
+                {
+                    "targets": {
+                        "node": "current"
+                    }
+                }
+            ]
+        ],
+        "plugins": [
+            "transform-default-import"
+        ]
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/jest --detectOpenHandles --coverage --config=./jest.config.json",
+        "lint": "./node_modules/.bin/eslint --fix src"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/core": "^7.8.3",
+        "@babel/preset-env": "^7.8.3",
+        "babel-plugin-transform-default-import": "^1.0.0",
+        "eslint": "^6.8.0",
+        "jest": "^25.1.0"
+    }
 }
