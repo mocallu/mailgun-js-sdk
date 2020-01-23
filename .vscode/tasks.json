@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Unit Test",
+            "type": "shell",
+            "command": "npm run test",
+            "presentation": {
+                "reveal": "always"
+            },
+        },
+        {
+            "label": "ESLint Fix",
+            "type": "shell",
+            "command": "npm run lint",
+            "presentation": {
+                "reveal": "always"
+            },
+        }
+    ]
+}
