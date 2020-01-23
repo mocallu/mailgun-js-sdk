@@ -8,7 +8,7 @@ export default {
         to: 'To <to@email.com>',
         subject: 'Mocallu Mailgun SDK Test',
         text: 'This is a simple e-mail test',
-        html: () => `<html><strong>${this.message.text}</strong><html>`,
+        html: () => `<html><strong>${this.message.text}</strong></html>`,
         'o:tag': 'test-sdk',
         'o:testmode': true,
     }
