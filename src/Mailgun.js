@@ -1,4 +1,4 @@
-import Agent from './Agent';
+const Agent = require('./Agent');
 
 class Mailgun {
     constructor(config) {
@@ -18,4 +18,4 @@ class Mailgun {
     }
 }
 
-export default Mailgun;
+module.exports = Mailgun;

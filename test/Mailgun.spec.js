@@ -1,5 +1,5 @@
-import MailgunService from '@/Mailgun';
-import config from './config';
+const MailgunService = require('@/Mailgun');
+const config = require('./config');
 
 describe('Mailgun', () => {
     const Mailgun = new MailgunService(config.agent);
