@@ -1,4 +1,4 @@
-import Request from 'request';
+const Request = require('request');
 
 class Agent {
     constructor(params) {
@@ -39,4 +39,4 @@ class Agent {
     }
 }
 
-export default Agent;
+module.exports = Agent;

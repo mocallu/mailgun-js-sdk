@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     agent: {
         apiKey: 'YOUR_API_KEY',
         domain: 'domain.used.on.mailgun.org'
