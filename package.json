@@ -1,6 +1,6 @@
 {
     "name": "mailgun-js-sdk",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A simple node mailgun sdk",
     "author": "Luã Mota <hi@mocallu.com>",
     "homepage": "https://github.com/mocallu/mailgun-js-sdk",
@@ -26,7 +26,9 @@
         "test": "./node_modules/.bin/jest --detectOpenHandles --coverage --config=./jest.config.json",
         "lint": "./node_modules/.bin/eslint --fix src"
     },
-    "dependencies": {},
+    "dependencies": {
+        "request": "^2.88.2"
+    },
     "devDependencies": {
         "eslint": "^6.8.0",
         "jest": "^25.1.0"
