@@ -1,16 +1,18 @@
 # Mailgun Node SDK
 A simple Mailgun SDK to send e-mails.
+Fork of https://github.com/mocallu/mailgun-js-sdk
 
 ## Install
 ```shell
-npm install mailgun-js-sdk
+npm install @nuteruls/mailgun-js-sdk
 ```
 
 ## Setup
 ```javascript
 const MailgunSDK = require('mailgun-js-sdk');
 const Mailgun = new MailgunSDK({
-    apiKey: 'YOUR_API_KEY'
+    apiKey: 'YOUR_API_KEY', // Required
+    baseUrl: 'https://api.eu.mailgun.net/v3/'
 });
 ```
 

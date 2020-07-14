@@ -9,7 +9,7 @@ class Agent {
                 user: 'api',
                 pass: params.apiKey
             },
-            hedaers: {
+            headers: {
                 'Content-Type': 'application/json'
             },
             json: true,

@@ -1,5 +1,5 @@
 const AgentService = require('@/Agent');
-const config = require('./config');
+const config = require('./config.dist');
 
 describe('Agent', () => {
     config.agent.baseUrl = 'https://api.mailgun.net/v3/';

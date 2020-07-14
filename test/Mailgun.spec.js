@@ -1,5 +1,5 @@
 const MailgunService = require('@/Mailgun');
-const config = require('./config');
+const config = require('./config.dist');
 
 describe('Mailgun', () => {
     const Mailgun = new MailgunService(config.agent);
