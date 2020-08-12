@@ -1,6 +1,6 @@
 {
     "name": "mailgun-js-sdk",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "description": "A simple node mailgun sdk",
     "author": "Luã Mota <hi@mocallu.com>",
     "homepage": "https://github.com/mocallu/mailgun-js-sdk",
