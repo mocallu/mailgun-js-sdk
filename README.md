@@ -10,7 +10,8 @@ npm install mailgun-js-sdk
 ```javascript
 const MailgunSDK = require('mailgun-js-sdk');
 const Mailgun = new MailgunSDK({
-    apiKey: 'YOUR_API_KEY'
+    apiKey: 'YOUR_API_KEY',
+    baseUrl: 'https://api.mailgun.net/v3/',
 });
 ```
 

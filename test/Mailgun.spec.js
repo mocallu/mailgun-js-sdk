@@ -15,6 +15,8 @@ describe('Mailgun', () => {
     });
 
     it('Needs to return a specific domain from Mailgun', async () => {
+        config.agent.baseUrl = '';
+        const Mailgun = new MailgunService(config.agent);
         const result = await Mailgun.getDomains(config.agent.domain);
         expect(result.statusCode).toBe(200);
     });
