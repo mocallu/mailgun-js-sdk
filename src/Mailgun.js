@@ -2,6 +2,7 @@ const Agent = require('./Agent');
 
 class Mailgun {
     constructor(config) {
+        config.baseUrl = config.baseUrl || 'https://api.mailgun.net/v3/';
         this.agent = new Agent(config);
     }
 
