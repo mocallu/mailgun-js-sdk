@@ -1,7 +1,8 @@
 module.exports = {
     agent: {
         apiKey: 'YOUR_API_KEY',
-        domain: 'domain.used.on.mailgun.org'
+        domain: 'domain.used.on.mailgun.org',
+        baseUrl: 'https://api.mailgun.net/v3/',
     },
     message: {
         from: 'From Name <from@email.com>',
