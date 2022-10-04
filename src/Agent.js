@@ -28,13 +28,14 @@ class Agent {
     }
 
     post(path, data) {
+        this.config.formData = data;
         return new Promise((resolve, reject) => {
             this.request.post(path, this.config, (error, response) => {
                 if (error) {
                     reject(error);
                 }
                 resolve(response);
-            }).form(data);
+            });
         });
     }
 }
